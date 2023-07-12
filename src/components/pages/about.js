@@ -35,7 +35,7 @@ function About() {
 
               <a href={Resume}
                  download="AnoopResume-PDF-document"
-                 target="_blank"
+                 target="_anoop_resume"
                  rel="noopener noreferrer">
                 <button>Download Resume</button>
               </a>

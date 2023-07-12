@@ -1,10 +1,11 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import './contact.css'
-import { Link } from 'react-router-dom'
 import {BsFacebook} from 'react-icons/bs'
 import {BsInstagram} from 'react-icons/bs'
 import {BsLinkedin} from 'react-icons/bs'
+
+import  {Link}  from 'react-router-dom'
 
 function Contact() {
   const [formStatus, setFormStatus] = React.useState('Send')
@@ -66,8 +67,8 @@ function Contact() {
 
         <div className='social-media'>
           <h2>Connect with me</h2>
-          <BsFacebook/>
-          <BsInstagram/>
+          <Link to={"https://www.facebook.com/anoop.ag.50"}><BsFacebook/></Link>
+          <Link to={"https://www.instagram.com/an_oop_ag/"}></Link> <BsInstagram/>
           <BsLinkedin/>
         </div>
       </div>
