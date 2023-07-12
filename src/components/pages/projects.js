@@ -3,6 +3,9 @@ import Navbar from '../Navbar/Navbar'
 import './projects.css'
 import Twitter_Image from '../../twitter_image.png'
 import Portfolio_Image from '../../portfolio_image.png'
+import Gym_Image from '../../gym_image.png'
+import Kanban_Image from '../../kanban_image.png'
+import { Link } from 'react-router-dom'
 
 
 function Projects() {
@@ -20,34 +23,36 @@ function Projects() {
               <h3>Twitter Clone</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
-              <button>Click here</button>
+              <button><Link to={"http://localhost:3006/singin"}>Click here</Link></button>
+
             </div>
             <div className='pro2'>
-            <img src={"https://images.pexels.com/photos/5926382/pexels-photo-5926382.jpeg?auto=compress&cs=tinysrgb&w=500"}/>
+            <img src={Kanban_Image}/>
             <div className='pro-text'>
               <h3>Kanban</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
-            <button>Click here</button>
+            <button><Link to={"https://kanban-5m6r.vercel.app/"}>Click here</Link></button>
             </div>
          </div>
 
          <div className='pro-sec2'>
             <div className='pro3'>
-            <img src={"https://images.pexels.com/photos/5926382/pexels-photo-5926382.jpeg?auto=compress&cs=tinysrgb&w=500"}/>
+            <img src={Gym_Image}/>
             <div className='pro-text'>
               <h3>Gym website</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
-             <button>Click here</button>
+             <button><Link to={""}>Click here</Link></button>
             </div>
+
             <div className='pro4'>
             <img src={Portfolio_Image}/>
             <div className='pro-text'>
               <h3>Portfolio</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
-               <button>Click here</button>
+               <button><Link to={""}>Click here</Link></button>
             </div>
          </div>
         </div>

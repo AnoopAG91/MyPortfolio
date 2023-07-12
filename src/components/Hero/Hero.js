@@ -1,6 +1,7 @@
 import React from 'react'
 import './Hero.css'
 import Typed from 'react-typed';
+import {Link} from 'react-router-dom'
 
 function Hero() {
   return (
@@ -17,7 +18,7 @@ function Hero() {
                 loop
             />
            
-            <button className='main-btn'>Contact Me</button>
+            <button className='main-btn'><Link to={'/Contact'}>Contact Me</Link></button>
         </div>
     </div>
   )

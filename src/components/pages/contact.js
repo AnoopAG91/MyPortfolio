@@ -68,8 +68,9 @@ function Contact() {
         <div className='social-media'>
           <h2>Connect with me</h2>
           <Link to={"https://www.facebook.com/anoop.ag.50"}><BsFacebook/></Link>
-          <Link to={"https://www.instagram.com/an_oop_ag/"}></Link> <BsInstagram/>
-          <BsLinkedin/>
+          <Link to={"https://www.instagram.com/an_oop_ag/"}><BsInstagram/></Link> 
+          <Link to={"https://www.linkedin.com/in/anoopgirish/"}><BsLinkedin/></Link> 
+          
         </div>
       </div>
 

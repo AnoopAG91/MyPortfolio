@@ -46,6 +46,10 @@
     margin-top: 20px;
     font-weight: 500;
 }
+button.main-btn a {
+    color: white;
+    text-decoration: none;
+}
 button.main-btn:hover {
     background-color: coral;
     color: white;

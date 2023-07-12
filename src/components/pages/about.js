@@ -57,9 +57,7 @@ function About() {
          <div className='ruler'><hr/></div> 
           <div className='experience'>
             <h1>My Experience</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            <p>As a Front-End Developer proficient in React, JavaScript, CSS, and HTML, I possess the necessary skills to create dynamic and visually appealing web applications. With a strong foundation in these technologies, I excel at transforming design concepts into responsive and interactive user interfaces. </p>
               <button>Contact Me</button>
           </div>
         </div>
